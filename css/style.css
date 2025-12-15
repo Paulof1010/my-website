@@ -12,10 +12,16 @@
   }
 }
 
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  max-height: 100vh;
-  max-width: 100%;
-  margin: 0;
+  height: 95vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   background-color: black;
   color: rgb(0, 255, 0);
   font-family: system-ui, sans-serif;
@@ -29,36 +35,37 @@ body {
 /* Header */
 .site-header {
   height: 10vh;
-  width: 100%;
+  width: 90%;
   padding-top: 1.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 25px;
   animation: bgColorChange 45s infinite alternate;
 }
 
 .site-title {
-  margin: 0 0 1rem 0;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0px;
   font-size: 3rem;
   animation: bgColorChange 45s infinite alternate;
 }
 
 /* Navigation */
 .main-nav ul {
+  width: 33%;
   display: flex;
   gap: 1.5rem;
   padding: 10px 0px 10px 0px;
   margin: 0 auto;
   list-style: none;
   justify-content: center;
-  border: 2px dashed rgb(0, 255, 0);
+  border: 3px dashed rgb(0, 255, 0);
   border-radius: 10px;
-  max-width: 600px;
   background-color: black;
   color: rgb(0, 255, 0);
 }
 
 .main-nav a {
-  margin-top: 20;
+  margin-top: 20px;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem;
@@ -82,14 +89,13 @@ body {
 /* Content area */
 .site-content {
   margin-top: 20px;
-  min-height: 70vh;
-  max-height: 70vh;
+  height: 85vh;
+  width: 66%;
+  font-size: large;
   background-color: black;
   color: rgb(0, 255, 0);
   flex: 1;
   padding: 2rem;
-  width: 75%;
-  max-width: 900px;
   border: 3px rgb(0, 255, 0);
   border-style: dashed dashed none dashed;
   border-radius: 10px;
@@ -289,8 +295,9 @@ body {
 .site-footer {
   height: 5vh;
   width: 100%;
-  padding: 1rem 2rem;
-  border-top: 1px solid rgb(0, 255, 0);
+  padding: 0px;
+  font-size: large;
+  border-top: 2px solid rgb(0, 255, 0);
   animation: bgColorChange 45s infinite alternate;
 }
 
