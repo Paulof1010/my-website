@@ -292,6 +292,11 @@ html, body {
   animation: bgColorChange 45s infinite alternate;
 }
 
+.site-footer p {
+  margin: 0px;
+  padding: 0px;
+}
+
 .footer-icons {
   margin-top: 10px;
   display: flex;
