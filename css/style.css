@@ -38,7 +38,6 @@ html, body {
 }
 
 .site-title {
-  padding-bottom: 1.5rem;
   margin-bottom: 0px;
   font-size: 3rem;
   animation: bgColorChange 45s infinite alternate;
@@ -46,7 +45,7 @@ html, body {
 
 /* Navigation */
 .main-nav ul {
-  width: 33%;
+  width: 44%;
   display: flex;
   gap: 1.5rem;
   padding: 10px 0px 10px 0px;
