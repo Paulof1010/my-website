@@ -31,8 +31,6 @@ html, body {
 .site-header {
   height: 10%;
   width: 100%;
-  padding-top: 1.5rem;
-  margin-bottom: 30px;
   font-size: 25px;
   animation: bgColorChange 45s infinite alternate;
 }
@@ -45,7 +43,7 @@ html, body {
 
 /* Navigation */
 .main-nav ul {
-  width: 44%;
+  width: 50%;
   display: flex;
   gap: 1.5rem;
   padding: 10px 0px 10px 0px;
