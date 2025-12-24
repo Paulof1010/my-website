@@ -285,6 +285,7 @@ html, body {
 .site-footer {
   height: 10%;
   width: 100%;
+  margin: 0px;
   padding: 0px;
   font-size: large;
   border-top: 2px solid rgb(0, 255, 0);
