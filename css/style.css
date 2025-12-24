@@ -12,13 +12,8 @@
   }
 }
 
-html {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  height: 95vh;
+html, body {
+  height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -34,8 +29,8 @@ body {
 
 /* Header */
 .site-header {
-  height: 10vh;
-  width: 90%;
+  height: 10%;
+  width: 100%;
   padding-top: 1.5rem;
   margin-bottom: 30px;
   font-size: 25px;
@@ -89,7 +84,7 @@ body {
 /* Content area */
 .site-content {
   margin-top: 20px;
-  height: 85vh;
+  height: 80%;
   width: 66%;
   font-size: large;
   background-color: black;
@@ -293,7 +288,7 @@ body {
 
 /* Footer */
 .site-footer {
-  height: 5vh;
+  height: 10%;
   width: 100%;
   padding: 0px;
   font-size: large;
