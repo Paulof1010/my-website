@@ -20,7 +20,7 @@ The site uses:
 
 - **HTML** for structure
 - **CSS** for styling
-- **(Optional)** JavaScript for interactive behavior
+- **JavaScript** for interactive behavior
 - **GitHub Pages** for hosting
 
 ---
