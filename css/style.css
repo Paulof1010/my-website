@@ -43,7 +43,7 @@ html, body {
 
 /* Navigation */
 .main-nav ul {
-  width: 66%;
+  width: 44%;
   display: flex;
   gap: 20px;
   padding: 10px 0px 10px 0px;
@@ -79,7 +79,6 @@ html, body {
 
 /* Content area */
 .site-content {
-  margin-top: 20px;
   height: 80%;
   width: 66%;
   font-size: large;
