@@ -29,7 +29,7 @@ html, body {
 
 /* Header */
 .site-header {
-  height: 10%;
+  height: 20%;
   width: 100%;
   font-size: 25px;
   animation: bgColorChange 45s infinite alternate;
@@ -43,9 +43,9 @@ html, body {
 
 /* Navigation */
 .main-nav ul {
-  width: 50%;
+  width: 66%;
   display: flex;
-  gap: 1.5rem;
+  gap: 20px;
   padding: 10px 0px 10px 0px;
   margin: 0 auto;
   list-style: none;
@@ -57,7 +57,6 @@ html, body {
 }
 
 .main-nav a {
-  margin-top: 20px;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem;
