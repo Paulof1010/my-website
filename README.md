@@ -20,5 +20,3 @@ It’s hosted for free using GitHub Pages and automatically updates when I push 
 - **CSS** for styling
 - **JavaScript** for interactive behavior
 - **GitHub Pages** for hosting
-
----
