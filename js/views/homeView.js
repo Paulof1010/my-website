@@ -5,7 +5,7 @@ export default function homeView() {
       <h2>Welcome</h2>
 
       <p>This is the home page of Paulo Ferreira.</p> 
-      <p>My ever first SPA (Single Page App)</p>
+      <p>My first SPA (Single Page App)</p>
 
       <br>
 
