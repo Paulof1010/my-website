@@ -389,10 +389,16 @@ body {
     padding: 1rem;
     overflow-x: hidden;
     margin: 0px;
+    font-size: medium;
   }
 
   .site-content img {
     width: 100%;
+  }
+
+  .site-content a {
+    border: 0px;
+    text-decoration: underline;
   }
 
   .cards-container {
