@@ -176,7 +176,8 @@ body {
   border-radius: 6px;
 }
 
-#opera-list {
+#opera-list,
+#sports-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;

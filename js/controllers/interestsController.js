@@ -14,7 +14,6 @@ function loadMap() {
     maxZoom: 18,
   }).addTo(map);
 
-  // Cities you’ve visited
   const visitedCities = [
     { name: "Rome", coords: [41.9028, 12.4964] },
     { name: "Budapest", coords: [47.4979, 19.0402] },
@@ -36,7 +35,6 @@ function loadMap() {
 async function loadOperaSingers() {
   const container = document.getElementById("opera-list");
 
-  // Ordered list — the exact singers you want
   const singers = [
     "Franco Corelli",
     "Luciano Pavarotti",
@@ -98,9 +96,9 @@ function loadTopFootballers() {
       img: "https://r2.thesportsdb.com/images/media/player/thumb/bkre241600892282.jpg/small",
     },
     {
-      name: "Diego Maradona",
-      nation: "Argentina",
-      img: "https://r2.thesportsdb.com/images/media/player/thumb/z4v3ox1515072958.jpg/small",
+      name: "Pele",
+      nation: "Brazil",
+      img: "https://r2.thesportsdb.com/images/media/player/thumb/dzaqec1545557822.jpg/small",
     },
     {
       name: "Lionel Messi",
@@ -127,7 +125,7 @@ function loadTopFootballers() {
           <h4>${p.name}</h4>
           <p>${p.nation}</p>
         </div>
-      `
+      `,
     )
     .join("");
 }
