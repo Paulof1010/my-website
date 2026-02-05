@@ -1,6 +1,6 @@
 const routes = {
   home: {
-    path: "/",
+    path: "/my-website",
     controller: "homeController",
   },
   about: {
