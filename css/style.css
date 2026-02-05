@@ -36,7 +36,7 @@ body {
 
 /* Header */
 .site-header {
-  height: 15%;
+  min-width: 15vh;
   width: 100%;
   font-size: 25px;
   animation: bgColorChange 45s infinite alternate;
@@ -86,12 +86,11 @@ body {
 
 /* Content area */
 .site-content {
-  height: 80%;
   width: 66%;
   font-size: large;
   background-color: black;
   color: rgb(0, 255, 0);
-  flex: 1;
+  margin-top: 20px;
   padding: 2rem;
   border: 3px rgb(0, 255, 0);
   border-style: dashed dashed none dashed;
@@ -110,6 +109,14 @@ body {
   border-radius: 10px;
   padding: 5px;
   transition: 1s;
+}
+.home-page .backend-skills,
+.frontend-skills {
+  display: inline-flex;
+  list-style: none;
+  max-width: 100%;
+  margin: 5px;
+  padding: 0px;
 }
 
 .home-page a:hover {
@@ -290,7 +297,7 @@ body {
 
 /* Footer */
 .site-footer {
-  height: 10%;
+  min-height: 10vh;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -354,10 +361,11 @@ body {
   scrollbar-color: rgb(0, 255, 0) black;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
   html,
   body {
     flex-direction: column;
+    height: auto;
     width: 100%;
     overflow-x: hidden;
   }
@@ -399,6 +407,15 @@ body {
   .site-content a {
     border: 0px;
     text-decoration: underline;
+  }
+
+  .home-page .backend-skills,
+  .frontend-skills {
+    display: inline-flex;
+    list-style: none;
+    max-width: 100%;
+    margin: 5px;
+    padding: 0px;
   }
 
   .cards-container {
