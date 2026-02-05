@@ -12,7 +12,14 @@
   }
 }
 
-html, body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0px;
@@ -43,7 +50,7 @@ html, body {
 
 /* Navigation */
 .main-nav ul {
-  width: 44%;
+  width: fit-content;
   display: flex;
   gap: 20px;
   padding: 10px 0px 10px 0px;
@@ -345,4 +352,74 @@ html, body {
 .site-content {
   scrollbar-width: thin;
   scrollbar-color: rgb(0, 255, 0) black;
+}
+
+@media (max-width: 1080px) {
+  html,
+  body {
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .site-header,
+  .site-content,
+  .site-footer {
+    height: auto;
+  }
+
+  .site-title {
+    font-size: 2rem;
+  }
+
+  .main-nav ul {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .site-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+    margin: 0px;
+  }
+
+  .site-content img {
+    width: 100%;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  #opera-list .card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .video-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 10px 0px 10px;
+    height: 200px;
+  }
+
+  * {
+    animation: none !important;
+  }
+
+  .site-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-content {
+    scrollbar-width: none; /* Firefox */
+  }
 }
